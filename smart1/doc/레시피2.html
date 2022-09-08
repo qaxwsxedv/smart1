@@ -4,65 +4,133 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
+	.content{
+		width: 750px;
+		margin: 0 auto;
+	}
 	.fr{
 		color: #ebaa00;
+	}
+	.box{
+		display: inline-block;
+		font-size:10pt;
+		width: 80px;
+		height: 40px;
+		border: 1px solid gray;
+		text-align: center;
+		float: left;
+	}
+	.top{
+	width: 100%;
+	htight: 34px;
+	padding-bottom; 17px;
+	}
+	.tl-text{
+		float: lefr;
+	}
+	.tr-text{
+		float: right;
+	}
+	.tl{
+		width: 100%;
+	}
+	.tr{
+		float: left;
+	}
+	.fl{
+		float: right;
 	}
 </style>
 </head>
 <body>
-	<div>
-		<strong class="title" style=background-color:orange;>오늘 읽을만한 글</strong>
-		<span style=background-color:red;>주제별로 분류된 다양한 글 모음</span>
-		<span style=background-color:green;><strong>671</strong>개의 글</span>
-		<a style=background-color:blue;>관심주제 설정</a>
-	</div>
-	<div>
-		<a>엔터</a>
-		<a>스포츠</a>
-		<a>자동차</a>
-		<a>웹툰</a>
-		<a>경제</a>
-		<a>추천.구독</a>
-		<a>레시피</a>
-		<a>리빙</a>
-	</div>
-	<div>
-		<div>
-			<img src="">	
+	<div class="content">
+		<div class="top">
+			<div class="tl-text">
+				<strong style=background-color:orange;>오늘 읽을만한 글</strong>
+				<span style=background-color:red;>주제별로 분류된 다양한 글 모음</span>
+			</div>
+			<div class="tr-text">
+				<span style=background-color:green;><strong>671</strong>개의 글</span>
+				<a style=background-color:blue;>관심주제 설정</a>
+			</div>
 		</div>
 		<div>
-			<a class="fr">[푸드클래스]김밀란 셰프</a>
-			<div style=background-color:pink;><strong>달콤 바삭한 감칠맛이 폴발! 카프레제 슈</strong></div>
-			<p style=background-color:red;>
-				바질의 향이 느껴지는 마요네즈에
-				<br>
-				모차렐라 크림 &토마토 콩피까지
-			</p>
-			<span style=background-color:green;>#핑거푸드#샐러드</span>
+			<a class="box"><span>엔터</span></a>
+			<a class="box">스포츠</a>
+			<a class="box">자동차</a>
+			<a class="box">웹툰</a>
+			<a class="box">경제</a>
+			<a class="box">추천.구독</a>
+			<a class="box">레시피</a>
+			<a class="box">리빙</a>
+		</div>
+		<hr>
+		<div class="tl">
+			<div class="tr">
+				<div>
+					<img src="./img2/aaa.jpeg" width="364px" height="180px">	
+				</div>
+				<div>
+					<a class="fr">[푸드클래스] 이밥차</a>
+					<div style="background-color:pink;"><strong>누구에게나 환영받는 '버섯불고기 버터밥'</strong></div>
+					<p style="background-color:red;">
+						밥과 함께 먹는 불고기는 간간하게!
+						<br>
+						고소한 풍미와 쫄깃한 식감 대폭발
+					</p>
+					<span style=background-color:green;>#소불고기 #버섯솥밥</span>
+				</div>
+			</div>
+			<div class="fl" >
+				<div>
+					<img src="./img2/bbb.jpeg" width="364px" height="180px">	
+				</div>
+				<div>
+					<a class="fr">[푸드클래스] 만개의 레시피</a>
+					<div style=background-color:pink;><strong>질리지 않는 분식 요리 10가지 어때요?</strong></div>
+					<p style=background-color:red;>
+						하나만 먹어도, 여러 가지 함께 먹어도
+						<br>
+						놓칠 수 없는 꿀맛 메뉴들 모았어요
+					</p>
+					<span style=background-color:green;>#국민간식 #맛집따라하기</span>
+				</div>
+			</div>
 		</div>
 		<div>
-			<img src="">	
-		</div>
-		<div>
-			<a class="fr">[푸드클래스]김밀란 셰프</a>
-			<div style=background-color:pink;><strong>달콤 바삭한 감칠맛이 폴발! 카프레제 슈</strong></div>
-			<p style=background-color:red;>
-				바질의 향이 느껴지는 마요네즈에
-				<br>
-				모차렐라 크림 &토마토 콩피까지
-			</p>
-			<span style=background-color:green;>#핑거푸드#샐러드</span>
-		</div>
-	</div>
-	<div>
-		<div>
-			<img src="">
-		</div>
-		<div>
-			<a class="fr">레시피</a>
-			<div style=background-color:blue;><strong>일찍 가야 맛볼 수 있는 편의점 아이스크림</strong></div>
-			<p style=background-color:yellow>편의점 아이스크림 10 아이스크림만큼 우리의 기분을 단시간에 좋아지게 만드는 게 있을까? 계절 상관없이 입 안을 시원하고 달달하게 해주는 아이스크림을 찾기 마련이다. 이 점</p>
-			<span style=background-color:pink>데일리</span> <span style=background-color:gray;>.4일전</span>
+			<div>
+				<div style="display: inline-block; width: 350px;">
+					<img src="./img2/ccc.jpg">
+				</div>
+				<div style="display: inline-block; width: 350px;">
+					<a class="fr">레시피</a>
+					<div style=background-color:blue;><strong>일찍 가야 맛볼 수 있는 편의점 아이스크림</strong></div>
+					<p style=background-color:yellow>편의점 아이스크림 10 아이스크림만큼 우리의 기분을 단시간에 좋아지게 만드는 게 있을까? 계절 상관없이 입 안을 시원하고 달달하게 해주는 아이스크림을 찾기 마련이다. 이 점...</p>
+					<span style=background-color:pink>데일리</span> <span style=background-color:gray;>.4일전</span>
+				</div>
+			</div>
+			<div>
+				<div style="display: inline-block; width: 350px;">
+					<img src="./img2/ddd.jpg">
+				</div>
+				<div style="display: inline-block; width: 350px;">
+					<a class="fr">레시피</a>
+					<div style=background-color:blue;><strong>꽃게찌는법 비린맛 잡고 탱글탱글 찌는시간 우리 아이 최애 꽃게찜 요리</strong></div>
+					<p style=background-color:yellow>꽃게찌는법 비린맛 잡고 탱글탱글 찌는시간 우리 아이 최애 꽃게찜 요리 아빠가 막둥이에게 귓속말로 속닥속닥하니까 신난다고 오예를 외치는~ " #꽃게 사러 같이 갈래?" 이 말이...</p>
+					<span style=background-color:pink>산이맘</span> <span style=background-color:gray;>.1주일 전</span>
+				</div>
+			</div>
+			<div>
+				<div style="display: inline-block; width: 350px;">
+					<img src="./img2/eee.jpg">
+				</div>
+				<div style="display: inline-block; width: 350px;">
+					<a class="fr">레시피</a>
+					<div style=background-color:blue;><strong>박태준 셰프의 맥적의 탈바꿈</strong></div>
+					<p style=background-color:yellow>박태준 셰프는 하고 싶은게 많은 사람인 것 같다. 전통 한식의 기본 틀은 유지하면서도 서양식 조리법을 사용해 퓨전 한식을 만들어 내면서, 다양한 맛을 한 요리에 조화롭게 담아...</p>
+					<span style=background-color:pink>한국축산데이터</span> <span style=background-color:gray;>.5일 전</span>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
